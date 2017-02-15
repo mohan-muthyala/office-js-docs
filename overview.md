@@ -92,6 +92,8 @@ APIs include `getItem()` to get setting entry via the key, `add()` to add the sp
 ### Suspend calculation 
 Suspends calculation until the next "context.sync()" is called. Once set, it is the developer's responsibility to re-calc the workbook, to ensure that any dependencies are propagated.
 
+In addition, we are fixing the F9 re-calc bug that wasn't re-calculating the dirty cells.
+
 
 ## Upcoming Excel 1.5 Release Features
 
